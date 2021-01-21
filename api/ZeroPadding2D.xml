@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GlobalAveragePooling2D>
+  <parameter>
+    <name>padding</name>
+    <type>int</type>
+    <num>2</num>
+    <value>
+      <minimum>0</minimum>
+      <maximum>9</maximum>
+    </value>
+  </parameter>
+  <parameter>
+    <name>data_format</name>
+    <type>str</type>
+    <value>channels_first,channels_last</value>
+  </parameter>
+</GlobalAveragePooling2D>

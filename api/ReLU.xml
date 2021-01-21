@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReLU>
+    <parameter>
+        <name>max_value</name>
+        <type>float</type>
+        <num>1</num>
+        <value>
+            <minimum>0.0</minimum>
+            <maximum>1.0</maximum>
+        </value>
+    </parameter>
+    <parameter>
+        <name>negative_slope</name>
+        <type>float</type>
+        <num>1</num>
+        <value>
+            <minimum>0.0</minimum>
+            <maximum>1.0</maximum>
+        </value>
+    </parameter>
+    <parameter>
+        <name>threshold</name>
+        <type>float</type>
+        <num>1</num>
+        <value>
+            <minimum>0.0</minimum>
+            <maximum>1.0</maximum>
+        </value>
+    </parameter>
+</ReLU>

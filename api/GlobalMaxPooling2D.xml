@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GlobalMaxPooling2D>
+  <parameter>
+    <name>data_format</name>
+    <type>str</type>
+    <value>channels_first,channels_last</value>
+  </parameter>
+</GlobalMaxPooling2D>

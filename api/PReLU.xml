@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PReLU>
+    <parameter>
+        <name>alpha_initializer</name>
+        <type>str</type>
+        <value>Zeros,Ones,Constant,RandomNormal,RandomUniform,TruncatedNormal,VarianceScaling,Orthogonal,lecun_uniform,glorot_normal,glorot_uniform,he_normal,lecun_normal,Identity</value>
+    </parameter>
+</PReLU>

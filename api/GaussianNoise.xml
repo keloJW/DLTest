@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GaussianNoise>
+    <parameter>
+        <name>stddev</name>
+        <type>float</type>
+        <num>1</num>
+        <value>
+            <minimum>0</minimum>
+            <maximum>1</maximum>
+        </value>
+    </parameter>
+</GaussianNoise>

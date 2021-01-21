@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MaxPooling2D>
+  <parameter>
+    <name>pool_size</name>
+    <type>int</type>
+    <num>2</num>
+    <value>
+      <minimum>0</minimum>
+      <maximum>5</maximum>
+    </value>
+  </parameter>
+  <parameter>
+    <name>strides</name>
+    <type>int</type>
+    <num>2</num>
+    <value>
+      <minimum>0</minimum>
+      <maximum>5</maximum>
+    </value>
+  </parameter>
+  <parameter>
+    <name>padding</name>
+    <type>str</type>
+    <value>valid,same</value>
+  </parameter>
+</MaxPooling2D>

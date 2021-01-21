@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Embedding>
+    <parameter>
+        <name>input_dim</name>
+        <type>int</type>
+        <num>1</num>
+        <value>
+            <minimum>0</minimum>
+            <maximum>100</maximum>
+        </value>
+    </parameter>
+    <parameter>
+        <name>output_dim</name>
+        <type>int</type>
+        <num>1</num>
+        <value>
+            <minimum>0</minimum>
+            <maximum>100</maximum>
+        </value>
+    </parameter>
+    <parameter>
+        <name>mask_zero</name>
+        <type>bool</type>
+        <value>True,False</value>
+    </parameter>
+</Embedding>

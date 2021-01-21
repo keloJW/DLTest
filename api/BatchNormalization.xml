@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BatchNormalization>
+    <parameter>
+        <name>momentum</name>
+        <tpye>float</tpye>
+        <num>1</num>
+        <value>
+            <minimum>0</minimum>
+            <maximum>1</maximum>
+        </value>
+    </parameter>
+    <parameter>
+        <name>epsilon</name>
+        <tpye>float</tpye>
+        <num>1</num>
+        <value>
+            <minimum>0</minimum>
+            <maximum>1</maximum>
+        </value>
+    </parameter>
+</BatchNormalization>

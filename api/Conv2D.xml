@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Conv2D>
+    <parameter>
+        <name>filters</name>
+        <type>int</type>
+        <num>1</num>
+        <value>
+            <minimum>0</minimum>
+            <maximum>20</maximum>
+        </value>
+    </parameter>
+    <parameter>
+        <name>kernel_size</name>
+        <type>int</type>
+        <num>2</num>
+        <value>
+            <minimum>0</minimum>
+            <maximum>20</maximum>
+        </value>
+    </parameter>
+    <!--<parameter>
+        <name>strides</name>
+        <type>int</type>
+        <num>2</num>
+        <value>
+            <minimum>0</minimum>
+            <maximum>5</maximum>
+        </value>
+    </parameter>-->
+    <parameter>
+        <name>padding</name>
+        <type>str</type>
+        <value>valid,same</value>
+    </parameter>
+    <parameter>
+        <name>activation</name>
+        <type>str</type>
+        <value>softmax,elu,selu,softplus,softsign,relu,tanh,sigmoid,hard_sigmoid,exponential,linear,None</value>
+    </parameter>
+    <!--<parameter>
+        <name>kernel_initializer</name>
+        <type>str</type>
+        <value>Zeros,Ones,Constant,RandomNormal,RandomUniform,TruncatedNormal,VarianceScaling,Orthogonal,lecun_uniform,glorot_normal,glorot_uniform,he_normal,lecun_normal,Identity</value>
+    </parameter>-->
+</Conv2D>
